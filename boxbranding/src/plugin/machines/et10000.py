@@ -9,34 +9,34 @@ def getDisplayType():
 	return "bwlcd128"
 
 def getHaveAVJACK():
-	return "False"
+	return ""
 
 def getHaveCI():
 	return "True"
 
 def getHaveDVI():
-	return "False"
+	return ""
 
 def getHaveHDMI():
 	return "True"
 
 def getHaveHDMIinFHD():
-	return "False"
+	return ""
 
 def getHaveHDMIinHD():
-	return "False"
+	return ""
 
 def getHaveMiniTV():
-	return "False"
+	return ""
 
 def getHaveRCA():
-	return "False"
+	return ""
 
 def getHaveSCART():
 	return "True"
 
 def getHaveSCARTYUV():
-	return "False"
+	return ""
 
 def getHaveTranscoding1():
 	return "multitranscoding"
@@ -45,7 +45,7 @@ def getHaveWOL():
 	return "True"
 
 def getHaveWWOL():
-	return "False"
+	return ""
 
 def getHaveYUV():
 	return "True"

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# updated Wed 13 May 2020 20:03 CEST
+# updated Wed 13 May 2020 20:06 CEST
 
 SUPPORTED_MACHINES = {
 	"7000s": ["e4hd", "e4hdhybrid", "mbmicro"],

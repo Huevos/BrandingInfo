@@ -9,46 +9,46 @@ def getDisplayType():
 	return "colorlcd720"
 
 def getHaveAVJACK():
-	return "False"
+	return ""
 
 def getHaveCI():
 	return "True"
 
 def getHaveDVI():
-	return "False"
+	return ""
 
 def getHaveHDMI():
 	return "True"
 
 def getHaveHDMIinFHD():
-	return "False"
+	return ""
 
 def getHaveHDMIinHD():
-	return "False"
+	return ""
 
 def getHaveMiniTV():
-	return "False"
+	return ""
 
 def getHaveRCA():
 	return "True"
 
 def getHaveSCART():
-	return "False"
+	return ""
 
 def getHaveSCARTYUV():
-	return "False"
+	return ""
 
 def getHaveTranscoding1():
 	return ""
 
 def getHaveWOL():
-	return "False"
+	return ""
 
 def getHaveWWOL():
-	return "False"
+	return ""
 
 def getHaveYUV():
-	return "False"
+	return ""
 
 def getImageArch():
 	return "mips32el"

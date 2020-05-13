@@ -9,13 +9,13 @@ def getDisplayType():
 	return "textlcd"
 
 def getHaveAVJACK():
-	return "False"
+	return ""
 
 def getHaveCI():
-	return "False"
+	return ""
 
 def getHaveDVI():
-	return "False"
+	return ""
 
 def getHaveHDMI():
 	return "True"
@@ -24,10 +24,10 @@ def getHaveHDMIinFHD():
 	return "True"
 
 def getHaveHDMIinHD():
-	return "False"
+	return ""
 
 def getHaveMiniTV():
-	return "False"
+	return ""
 
 def getHaveRCA():
 	return "True"
@@ -36,19 +36,19 @@ def getHaveSCART():
 	return "True"
 
 def getHaveSCARTYUV():
-	return "False"
+	return ""
 
 def getHaveTranscoding1():
 	return "multitranscoding"
 
 def getHaveWOL():
-	return "False"
+	return ""
 
 def getHaveWWOL():
-	return "False"
+	return ""
 
 def getHaveYUV():
-	return "False"
+	return ""
 
 def getImageArch():
 	return "cortexa15hf-neon-vfpv4"

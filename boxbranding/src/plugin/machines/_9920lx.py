@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-# branding file for ax51
+# branding file for 9920lx
 
 def getBrandOEM():
-	return "gfutures"
+	return "ceryon"
 
 def getDisplayType():
-	return "textlcd"
+	return "7segment"
 
 def getHaveAVJACK():
-	return "True"
+	return "False"
 
 def getHaveCI():
 	return "True"
@@ -30,7 +30,7 @@ def getHaveMiniTV():
 	return "False"
 
 def getHaveRCA():
-	return "False"
+	return "True"
 
 def getHaveSCART():
 	return "False"
@@ -51,38 +51,38 @@ def getHaveYUV():
 	return "False"
 
 def getImageArch():
-	return "cortexa15hf-neon-vfpv4"
+	return "mips32el"
 
 def getImageFileSystem():
-	return " hdemmc tar"
+	return "ubi"
 
 def getImageFolder():
-	return "hd51"
+	return "9920lx"
 
 def getMachineBrand():
-	return "AX 4K"
+	return "Protek"
 
 def getMachineBuild():
-	return "ax51"
+	return "9920lx"
 
 def getMachineKernelFile():
 	return "kernel.bin"
 
 def getMachineMKUBIFS():
-	return ""
+	return "-m 2048 -e 126976 -c 4096"
 
 def getMachineMake():
-	return "ax51"
+	return "9920lx"
 
 def getMachineMtdKernel():
-	return "mmcblk0p2"
+	return "mtd1"
 
 def getMachineMtdRoot():
-	return "mmcblk0p3"
+	return "mtd2"
 
 def getMachineRootFile():
-	return "rootfs.tar.bz2"
+	return "rootfs.bin"
 
 def getMachineUBINIZE():
-	return ""
+	return "-m 2048 -p 128KiB"
 

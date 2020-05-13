@@ -1,16 +1,18 @@
-# branding file for sf8008
+# -*- coding: utf-8 -*-
+
+# branding file for 9911lx
 
 def getBrandOEM():
-	return "octagon"
+	return "ceryon"
 
 def getDisplayType():
 	return "7segment"
 
 def getHaveAVJACK():
-	return "True"
+	return "False"
 
 def getHaveCI():
-	return "False"
+	return "True"
 
 def getHaveDVI():
 	return "False"
@@ -28,7 +30,7 @@ def getHaveMiniTV():
 	return "False"
 
 def getHaveRCA():
-	return "False"
+	return "True"
 
 def getHaveSCART():
 	return "False"
@@ -37,7 +39,7 @@ def getHaveSCARTYUV():
 	return "False"
 
 def getHaveTranscoding1():
-	return "multitranscoding"
+	return ""
 
 def getHaveWOL():
 	return "False"
@@ -49,38 +51,38 @@ def getHaveYUV():
 	return "False"
 
 def getImageArch():
-	return "cortexa15hf-neon-vfpv4"
+	return "mips32el"
 
 def getImageFileSystem():
-	return " octagonemmc"
+	return "ubi"
 
 def getImageFolder():
-	return "octagon/sf8008"
+	return "9911lx"
 
 def getMachineBrand():
-	return "Octagon"
+	return "Protek"
 
 def getMachineBuild():
-	return "sf8008"
+	return "9911lx"
 
 def getMachineKernelFile():
 	return "kernel.bin"
 
 def getMachineMKUBIFS():
-	return ""
+	return "-m 2048 -e 126976 -c 4096"
 
 def getMachineMake():
-	return "sf8008"
+	return "9911lx"
 
 def getMachineMtdKernel():
-	return "mmcblk0p12"
+	return "mtd1"
 
 def getMachineMtdRoot():
-	return "mmcblk0p16"
+	return "mtd2"
 
 def getMachineRootFile():
-	return "rootfs.tar.bz2"
+	return "rootfs.bin"
 
 def getMachineUBINIZE():
-	return ""
+	return "-m 2048 -p 128KiB"
 

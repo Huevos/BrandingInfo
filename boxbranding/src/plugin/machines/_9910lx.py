@@ -1,7 +1,9 @@
-# branding file for osmini4k
+# -*- coding: utf-8 -*-
+
+# branding file for 9910lx
 
 def getBrandOEM():
-	return "edision"
+	return "ceryon"
 
 def getDisplayType():
 	return "7segment"
@@ -10,7 +12,7 @@ def getHaveAVJACK():
 	return "False"
 
 def getHaveCI():
-	return "False"
+	return "True"
 
 def getHaveDVI():
 	return "False"
@@ -28,7 +30,7 @@ def getHaveMiniTV():
 	return "False"
 
 def getHaveRCA():
-	return "False"
+	return "True"
 
 def getHaveSCART():
 	return "False"
@@ -49,38 +51,38 @@ def getHaveYUV():
 	return "False"
 
 def getImageArch():
-	return "cortexa15hf-neon-vfpv4"
+	return "mips32el"
 
 def getImageFileSystem():
-	return "emmcimg"
+	return "ubi"
 
 def getImageFolder():
-	return "osmini4k"
+	return "9910lx"
 
 def getMachineBrand():
-	return "Edision"
+	return "Protek"
 
 def getMachineBuild():
-	return "osmini4k"
+	return "9910lx"
 
 def getMachineKernelFile():
 	return "kernel.bin"
 
 def getMachineMKUBIFS():
-	return ""
+	return "-m 2048 -e 126976 -c 4096"
 
 def getMachineMake():
-	return "osmini4k"
+	return "9910lx"
 
 def getMachineMtdKernel():
-	return "mmcblk1p2"
+	return "mtd1"
 
 def getMachineMtdRoot():
-	return "mmcblk1p3"
+	return "mtd2"
 
 def getMachineRootFile():
-	return "rootfs.tar.bz2"
+	return "rootfs.bin"
 
 def getMachineUBINIZE():
-	return ""
+	return "-m 2048 -p 128KiB"
 

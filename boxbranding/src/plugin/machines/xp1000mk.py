@@ -12,7 +12,7 @@ def getHaveAVJACK():
 	return "False"
 
 def getHaveCI():
-	return "False"
+	return "True"
 
 def getHaveDVI():
 	return "False"

@@ -111,6 +111,7 @@ SUPPORTED_MACHINES = {
 	"purehd": ["purehd"],
 	"purehdse": ["purehdse"],
 	"revo4k": ["revo4k"],
+	"sf8008": ["sf8008"],
 	"sh1": ["zgemmas2s", "zgemmash1", "zgemmash2", "zgemmass"],
 	"spark": ["amiko8900", "amikomini", "arguspingulux", "arguspinguluxmini", "arguspinguluxplus", "dynaspark", "dynasparkplus", "fulanspark1", "gis8120", "sabsolo", "sognorevolution", "sparklx", "sparkreloaded"],
 	"spark7162": ["amikoalien", "dynaspark7162", "giavatar", "sabtriple", "sognotriple", "sparkone", "sparktriplex"],

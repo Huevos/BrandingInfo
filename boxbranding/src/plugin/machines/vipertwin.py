@@ -2,6 +2,12 @@
 
 # branding file for vipertwin
 
+def getBoxType():
+	return "vipertwin"
+
+def getMachineName():
+	return "Viper Twin E2"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "vipertwin"
 
 def getMachineRootFile():
 	return "rootfs.bin"

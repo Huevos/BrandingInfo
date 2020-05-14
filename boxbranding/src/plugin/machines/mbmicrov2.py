@@ -2,6 +2,12 @@
 
 # branding file for mbmicrov2
 
+def getBoxType():
+	return "mbmicrov2"
+
+def getMachineName():
+	return "Premium Micro 2"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "mbmicrov2"
 
 def getMachineRootFile():
 	return "rootfs.bin"

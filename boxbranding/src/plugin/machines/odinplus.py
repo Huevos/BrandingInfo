@@ -2,6 +2,12 @@
 
 # branding file for odinplus
 
+def getBoxType():
+	return "odinplus"
+
+def getMachineName():
+	return "ODIN2 Plus"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "odinplus"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for x1plus
 
+def getBoxType():
+	return "x1plus"
+
+def getMachineName():
+	return "enfinityX 1plus"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "x1plus"
 
 def getMachineRootFile():
 	return "rootfs.bin"

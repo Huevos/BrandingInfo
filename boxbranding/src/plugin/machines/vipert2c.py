@@ -2,6 +2,12 @@
 
 # branding file for vipert2c
 
+def getBoxType():
+	return "vipert2c"
+
+def getMachineName():
+	return "Viper T2/C"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vipert2c"
 
 def getMachineRootFile():
 	return "rootfs.bin"

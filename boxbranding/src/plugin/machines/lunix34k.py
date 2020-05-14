@@ -2,6 +2,12 @@
 
 # branding file for lunix34k
 
+def getBoxType():
+	return "lunix34k"
+
+def getMachineName():
+	return "LUNIX3 4K"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "lunix34k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

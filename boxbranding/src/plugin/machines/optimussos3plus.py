@@ -2,6 +2,12 @@
 
 # branding file for optimussos3plus
 
+def getBoxType():
+	return "optimussos3plus"
+
+def getMachineName():
+	return "Optimuss OS3 Plus"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "optimussos3plus"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

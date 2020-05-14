@@ -2,6 +2,12 @@
 
 # branding file for viper4k51
 
+def getBoxType():
+	return "viper4k51"
+
+def getMachineName():
+	return "VIPER4K51"
+
 def getBrandOEM():
 	return "xtrend"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "viper4k51"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

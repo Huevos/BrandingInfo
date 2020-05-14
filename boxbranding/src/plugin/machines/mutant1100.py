@@ -2,6 +2,12 @@
 
 # branding file for mutant1100
 
+def getBoxType():
+	return "mutant1100"
+
+def getMachineName():
+	return "HD1100"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "mutant1100"
 
 def getMachineRootFile():
 	return "rootfs.bin"

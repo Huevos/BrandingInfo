@@ -2,6 +2,12 @@
 
 # branding file for sf98
 
+def getBoxType():
+	return "sf98"
+
+def getMachineName():
+	return "SF98"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "sf98"
 
 def getMachineRootFile():
 	return "rootfs.bin"

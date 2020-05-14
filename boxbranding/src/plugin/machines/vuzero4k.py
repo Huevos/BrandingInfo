@@ -2,6 +2,12 @@
 
 # branding file for vuzero4k
 
+def getBoxType():
+	return "vuzero4k"
+
+def getMachineName():
+	return "Zero4K"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p7"
+
+def getMachineProcModel():
+	return "vuzero4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

@@ -2,6 +2,12 @@
 
 # branding file for singleboxlcd
 
+def getBoxType():
+	return "singleboxlcd"
+
+def getMachineName():
+	return "SINGLEBOX LCD"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "singleboxlcd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

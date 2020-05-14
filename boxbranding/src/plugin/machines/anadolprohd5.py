@@ -2,6 +2,12 @@
 
 # branding file for anadolprohd5
 
+def getBoxType():
+	return "anadolprohd5"
+
+def getMachineName():
+	return "Pro HD5"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "anadolprohd5"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for beyonwizt4
 
+def getBoxType():
+	return "beyonwizt4"
+
+def getMachineName():
+	return "T4"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "beyonwizt4"
 
 def getMachineRootFile():
 	return "rootfs.bin"

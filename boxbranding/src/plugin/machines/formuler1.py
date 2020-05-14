@@ -2,6 +2,12 @@
 
 # branding file for formuler1
 
+def getBoxType():
+	return "formuler1"
+
+def getMachineName():
+	return "F1"
+
 def getBrandOEM():
 	return "formuler"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "formuler1"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for gbx2
 
+def getBoxType():
+	return "gbx2"
+
+def getMachineName():
+	return "X2"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "gbx2"
 
 def getMachineRootFile():
 	return "rootfs.bin"

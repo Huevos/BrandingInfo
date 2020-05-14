@@ -2,6 +2,12 @@
 
 # branding file for uniboxhde
 
+def getBoxType():
+	return "uniboxhde"
+
+def getMachineName():
+	return "HDECO+"
+
 def getBrandOEM():
 	return "blackbox"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd6"
+
+def getMachineProcModel():
+	return "uniboxhde"
 
 def getMachineRootFile():
 	return "rootfs.bin"

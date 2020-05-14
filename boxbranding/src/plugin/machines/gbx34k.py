@@ -2,6 +2,12 @@
 
 # branding file for gbx34k
 
+def getBoxType():
+	return "gbx34k"
+
+def getMachineName():
+	return "UHD X3 4K"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p5"
+
+def getMachineProcModel():
+	return "gbx34k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

@@ -2,6 +2,12 @@
 
 # branding file for evomini
 
+def getBoxType():
+	return "evomini"
+
+def getMachineName():
+	return "ENfinity mini"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "evomini"
 
 def getMachineRootFile():
 	return "rootfs.bin"

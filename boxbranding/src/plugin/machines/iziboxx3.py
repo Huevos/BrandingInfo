@@ -2,6 +2,12 @@
 
 # branding file for iziboxx3
 
+def getBoxType():
+	return "iziboxx3"
+
+def getMachineName():
+	return "X3"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd11"
+
+def getMachineProcModel():
+	return "iziboxx3"
 
 def getMachineRootFile():
 	return "rootfs.bin"

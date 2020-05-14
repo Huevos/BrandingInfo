@@ -2,6 +2,12 @@
 
 # branding file for mbhybrid
 
+def getBoxType():
+	return "mbhybrid"
+
+def getMachineName():
+	return "Premium Hybrid"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "mbhybrid"
 
 def getMachineRootFile():
 	return "rootfs.bin"

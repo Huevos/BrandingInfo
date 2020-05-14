@@ -2,6 +2,12 @@
 
 # branding file for zgemmah32tc
 
+def getBoxType():
+	return "zgemmah32tc"
+
+def getMachineName():
+	return "H3.2TC"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "zgemmah32tc"
 
 def getMachineRootFile():
 	return "rootfs.bin"

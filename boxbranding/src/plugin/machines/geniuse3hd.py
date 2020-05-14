@@ -2,6 +2,12 @@
 
 # branding file for geniuse3hd
 
+def getBoxType():
+	return "geniuse3hd"
+
+def getMachineName():
+	return "Genius E3HD"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "geniuse3hd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

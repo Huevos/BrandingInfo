@@ -2,6 +2,12 @@
 
 # branding file for anadol4kv2
 
+def getBoxType():
+	return "anadol4kv2"
+
+def getMachineName():
+	return "ECO 4K UHD V2"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p10"
+
+def getMachineProcModel():
+	return "anadol4kv2"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

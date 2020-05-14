@@ -2,6 +2,12 @@
 
 # branding file for vuultimo
 
+def getBoxType():
+	return "vuultimo"
+
+def getMachineName():
+	return "Ultimo"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vuultimo"
 
 def getMachineRootFile():
 	return "root_cfe_auto.jffs2"

@@ -2,6 +2,12 @@
 
 # branding file for force2plus
 
+def getBoxType():
+	return "force2plus"
+
+def getMachineName():
+	return "force2 Plus"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "force2plus"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

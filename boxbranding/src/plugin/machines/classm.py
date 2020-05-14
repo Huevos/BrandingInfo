@@ -2,6 +2,12 @@
 
 # branding file for classm
 
+def getBoxType():
+	return "classm"
+
+def getMachineName():
+	return "CLASS M"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "classm"
 
 def getMachineRootFile():
 	return "rootfs.bin"

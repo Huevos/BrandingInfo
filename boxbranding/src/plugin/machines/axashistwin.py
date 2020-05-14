@@ -2,6 +2,12 @@
 
 # branding file for axashistwin
 
+def getBoxType():
+	return "axashistwin"
+
+def getMachineName():
+	return "HIS Twin"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "axashistwin"
 
 def getMachineRootFile():
 	return "rootfs.bin"

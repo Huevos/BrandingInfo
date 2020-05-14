@@ -2,6 +2,12 @@
 
 # branding file for xp1000mk
 
+def getBoxType():
+	return "xp1000mk"
+
+def getMachineName():
+	return "XP1000"
+
 def getBrandOEM():
 	return "xp"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "xp1000mk"
 
 def getMachineRootFile():
 	return "rootfs.bin"

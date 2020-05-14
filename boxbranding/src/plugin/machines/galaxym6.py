@@ -2,6 +2,12 @@
 
 # branding file for galaxym6
 
+def getBoxType():
+	return "galaxym6"
+
+def getMachineName():
+	return "GalaxyM6"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "galaxym6"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for sezammarvel
 
+def getBoxType():
+	return "sezammarvel"
+
+def getMachineName():
+	return "Marvel"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "sezammarvel"
 
 def getMachineRootFile():
 	return "rootfs.bin"

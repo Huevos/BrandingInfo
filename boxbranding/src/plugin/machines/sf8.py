@@ -2,6 +2,12 @@
 
 # branding file for sf8
 
+def getBoxType():
+	return "sf8"
+
+def getMachineName():
+	return "SF8"
+
 def getBrandOEM():
 	return "xp"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "sf8"
 
 def getMachineRootFile():
 	return "rootfs.bin"

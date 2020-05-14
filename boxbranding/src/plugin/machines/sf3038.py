@@ -2,6 +2,12 @@
 
 # branding file for sf3038
 
+def getBoxType():
+	return "sf3038"
+
+def getMachineName():
+	return "SF3038"
+
 def getBrandOEM():
 	return "broadmedia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "sf3038"
 
 def getMachineRootFile():
 	return "rootfs.bin"

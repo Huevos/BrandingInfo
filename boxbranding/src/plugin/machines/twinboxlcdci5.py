@@ -2,6 +2,12 @@
 
 # branding file for twinboxlcdci5
 
+def getBoxType():
+	return "twinboxlcdci5"
+
+def getMachineName():
+	return "TWINBOX LCD"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "twinboxlcdci5"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for gbue4k
 
+def getBoxType():
+	return "gbue4k"
+
+def getMachineName():
+	return "UHD UE 4K"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p5"
+
+def getMachineProcModel():
+	return "gbue4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

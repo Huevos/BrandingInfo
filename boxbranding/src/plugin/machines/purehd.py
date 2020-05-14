@@ -2,6 +2,12 @@
 
 # branding file for purehd
 
+def getBoxType():
+	return "purehd"
+
+def getMachineName():
+	return "PURE HD"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "purehd"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

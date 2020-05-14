@@ -2,6 +2,12 @@
 
 # branding file for ventonhdx
 
+def getBoxType():
+	return "ventonhdx"
+
+def getMachineName():
+	return "HD-x"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "ventonhdx"
 
 def getMachineRootFile():
 	return "rootfs.bin"

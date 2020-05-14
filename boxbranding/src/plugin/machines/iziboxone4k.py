@@ -2,6 +2,12 @@
 
 # branding file for iziboxone4k
 
+def getBoxType():
+	return "iziboxone4k"
+
+def getMachineName():
+	return "ONE 4K"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd11"
+
+def getMachineProcModel():
+	return "iziboxone4k"
 
 def getMachineRootFile():
 	return "rootfs.bin"

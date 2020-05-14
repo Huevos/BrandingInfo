@@ -2,6 +2,12 @@
 
 # branding file for vuduo
 
+def getBoxType():
+	return "vuduo"
+
+def getMachineName():
+	return "Duo"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vuduo"
 
 def getMachineRootFile():
 	return "root_cfe_auto.jffs2"

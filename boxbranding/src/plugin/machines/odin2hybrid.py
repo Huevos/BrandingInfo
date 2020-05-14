@@ -2,6 +2,12 @@
 
 # branding file for odin2hybrid
 
+def getBoxType():
+	return "odin2hybrid"
+
+def getMachineName():
+	return "ODIN2 Hybrid"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "odin2hybrid"
 
 def getMachineRootFile():
 	return "rootfs.bin"

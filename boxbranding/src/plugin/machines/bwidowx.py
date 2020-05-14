@@ -2,6 +2,12 @@
 
 # branding file for bwidowx
 
+def getBoxType():
+	return "bwidowx"
+
+def getMachineName():
+	return "Black Widow-X"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "bwidowx"
 
 def getMachineRootFile():
 	return "rootfs.bin"

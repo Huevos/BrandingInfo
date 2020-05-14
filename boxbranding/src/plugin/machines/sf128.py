@@ -2,6 +2,12 @@
 
 # branding file for sf128
 
+def getBoxType():
+	return "sf128"
+
+def getMachineName():
+	return "SF128"
+
 def getBrandOEM():
 	return "broadmedia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "sf128"
 
 def getMachineRootFile():
 	return "rootfs.bin"

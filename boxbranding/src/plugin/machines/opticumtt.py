@@ -2,6 +2,12 @@
 
 # branding file for opticumtt
 
+def getBoxType():
+	return "opticumtt"
+
+def getMachineName():
+	return "Twin"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "opticumtt"
 
 def getMachineRootFile():
 	return "rootfs.bin"

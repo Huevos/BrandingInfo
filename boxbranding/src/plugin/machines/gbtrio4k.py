@@ -2,6 +2,12 @@
 
 # branding file for gbtrio4k
 
+def getBoxType():
+	return "gbtrio4k"
+
+def getMachineName():
+	return "UHD TRIO 4K"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p16"
+
+def getMachineProcModel():
+	return "gbtrio4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

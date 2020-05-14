@@ -2,6 +2,12 @@
 
 # branding file for vizyonvita
 
+def getBoxType():
+	return "vizyonvita"
+
+def getMachineName():
+	return "Vita"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "vizyonvita"
 
 def getMachineRootFile():
 	return "rootfs.bin"

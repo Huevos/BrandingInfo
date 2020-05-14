@@ -2,6 +2,12 @@
 
 # branding file for maram9
 
+def getBoxType():
+	return "maram9"
+
+def getMachineName():
+	return "M9"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd3"
+
+def getMachineProcModel():
+	return "maram9"
 
 def getMachineRootFile():
 	return "rootfs.bin"

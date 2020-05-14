@@ -2,6 +2,12 @@
 
 # branding file for gbip4k
 
+def getBoxType():
+	return "gbip4k"
+
+def getMachineName():
+	return "UHD IP 4K"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p16"
+
+def getMachineProcModel():
+	return "gbip4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

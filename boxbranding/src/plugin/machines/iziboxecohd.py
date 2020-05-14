@@ -2,6 +2,12 @@
 
 # branding file for iziboxecohd
 
+def getBoxType():
+	return "iziboxecohd"
+
+def getMachineName():
+	return "ECO TWIN HD"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "iziboxecohd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

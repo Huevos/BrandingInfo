@@ -2,6 +2,12 @@
 
 # branding file for force3uhdplus
 
+def getBoxType():
+	return "force3uhdplus"
+
+def getMachineName():
+	return "FORCE3 UHD Plus"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "force3uhdplus"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

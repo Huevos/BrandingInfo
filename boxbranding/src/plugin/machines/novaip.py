@@ -2,6 +2,12 @@
 
 # branding file for novaip
 
+def getBoxType():
+	return "novaip"
+
+def getMachineName():
+	return "NOVA IP"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "novaip"
 
 def getMachineRootFile():
 	return "rootfs.bin"

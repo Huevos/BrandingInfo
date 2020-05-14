@@ -2,6 +2,12 @@
 
 # branding file for mediaart200hd
 
+def getBoxType():
+	return "mediaart200hd"
+
+def getMachineName():
+	return "MediaArt 200HD"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "mediaart200hd"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

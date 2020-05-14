@@ -2,6 +2,12 @@
 
 # branding file for force4
 
+def getBoxType():
+	return "force4"
+
+def getMachineName():
+	return "FORCE 4"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "force4"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

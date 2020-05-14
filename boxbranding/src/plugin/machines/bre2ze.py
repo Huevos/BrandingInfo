@@ -2,6 +2,12 @@
 
 # branding file for bre2ze
 
+def getBoxType():
+	return "bre2ze"
+
+def getMachineName():
+	return "BRE2ZE"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "bre2ze"
 
 def getMachineRootFile():
 	return "rootfs.bin"

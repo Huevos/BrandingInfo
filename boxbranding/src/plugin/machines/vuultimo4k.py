@@ -2,6 +2,12 @@
 
 # branding file for vuultimo4k
 
+def getBoxType():
+	return "vuultimo4k"
+
+def getMachineName():
+	return "Ultimo4K"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "vuultimo4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

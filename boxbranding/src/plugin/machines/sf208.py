@@ -2,6 +2,12 @@
 
 # branding file for sf208
 
+def getBoxType():
+	return "sf208"
+
+def getMachineName():
+	return "SF208 E2 HD LCD SINGLE"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "sf208"
 
 def getMachineRootFile():
 	return "rootfs.bin"

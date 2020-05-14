@@ -2,6 +2,12 @@
 
 # branding file for spycat
 
+def getBoxType():
+	return "spycat"
+
+def getMachineName():
+	return "SpyCat"
+
 def getBrandOEM():
 	return "xcore"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "spycat"
 
 def getMachineRootFile():
 	return "rootfs.bin"

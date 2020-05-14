@@ -2,6 +2,12 @@
 
 # branding file for protek4k
 
+def getBoxType():
+	return "protek4k"
+
+def getMachineName():
+	return "4K UHD"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p3"
+
+def getMachineProcModel():
+	return "protek4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

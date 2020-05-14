@@ -2,6 +2,12 @@
 
 # branding file for ax61
 
+def getBoxType():
+	return "ax61"
+
+def getMachineName():
+	return "HD61"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p21"
+
+def getMachineProcModel():
+	return "ax61"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

@@ -2,6 +2,12 @@
 
 # branding file for anadolmulti
 
+def getBoxType():
+	return "anadolmulti"
+
+def getMachineName():
+	return "Multibox"
+
 def getBrandOEM():
 	return "maxytec"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p20"
+
+def getMachineProcModel():
+	return "anadolmulti"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

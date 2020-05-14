@@ -2,6 +2,12 @@
 
 # branding file for sezam5000hd
 
+def getBoxType():
+	return "sezam5000hd"
+
+def getMachineName():
+	return "5000-HD"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "sezam5000hd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

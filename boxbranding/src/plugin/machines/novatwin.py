@@ -2,6 +2,12 @@
 
 # branding file for novatwin
 
+def getBoxType():
+	return "novatwin"
+
+def getMachineName():
+	return "NOVA TWIN"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "novatwin"
 
 def getMachineRootFile():
 	return "rootfs.bin"

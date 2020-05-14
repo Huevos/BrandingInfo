@@ -2,6 +2,12 @@
 
 # branding file for et7x00mini
 
+def getBoxType():
+	return "et7x00mini"
+
+def getMachineName():
+	return "ET-7000 Mini"
+
 def getBrandOEM():
 	return "ultramini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "et7x00mini"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for osmio4kplus
 
+def getBoxType():
+	return "osmio4kplus"
+
+def getMachineName():
+	return "OS mio 4k plus"
+
 def getBrandOEM():
 	return "edision"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk1p3"
+
+def getMachineProcModel():
+	return "osmio4kplus"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

@@ -2,6 +2,12 @@
 
 # branding file for xcombo
 
+def getBoxType():
+	return "xcombo"
+
+def getMachineName():
+	return "enfinityX combo plus"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "xcombo"
 
 def getMachineRootFile():
 	return "rootfs.bin"

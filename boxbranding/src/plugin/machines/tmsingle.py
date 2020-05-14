@@ -2,6 +2,12 @@
 
 # branding file for tmsingle
 
+def getBoxType():
+	return "tmsingle"
+
+def getMachineName():
+	return "TM-Single"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "tmsingle"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

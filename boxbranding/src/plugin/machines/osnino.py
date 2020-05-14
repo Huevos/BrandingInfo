@@ -2,6 +2,12 @@
 
 # branding file for osnino
 
+def getBoxType():
+	return "osnino"
+
+def getMachineName():
+	return "OS nino"
+
 def getBrandOEM():
 	return "edision"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "osnino"
 
 def getMachineRootFile():
 	return "rootfs.bin"

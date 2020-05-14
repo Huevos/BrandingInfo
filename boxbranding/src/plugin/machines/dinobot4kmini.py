@@ -2,6 +2,12 @@
 
 # branding file for dinobot4kmini
 
+def getBoxType():
+	return "dinobot4kmini"
+
+def getMachineName():
+	return "DINOBOT 4K mini"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p13"
+
+def getMachineProcModel():
+	return "dinobot4kmini"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

@@ -2,6 +2,12 @@
 
 # branding file for viperslim
 
+def getBoxType():
+	return "viperslim"
+
+def getMachineName():
+	return "Viper SLIM"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "viperslim"
 
 def getMachineRootFile():
 	return "rootfs.bin"

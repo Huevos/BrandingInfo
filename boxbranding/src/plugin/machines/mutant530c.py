@@ -2,6 +2,12 @@
 
 # branding file for mutant530c
 
+def getBoxType():
+	return "mutant530c"
+
+def getMachineName():
+	return "HD530C"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "mutant530c"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for vimastec1000
 
+def getBoxType():
+	return "vimastec1000"
+
+def getMachineName():
+	return "VS1000"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "vimastec1000"
 
 def getMachineRootFile():
 	return "rootfs.bin"

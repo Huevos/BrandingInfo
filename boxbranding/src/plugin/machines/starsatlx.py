@@ -2,6 +2,12 @@
 
 # branding file for starsatlx
 
+def getBoxType():
+	return "starsatlx"
+
+def getMachineName():
+	return "LX"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "starsatlx"
 
 def getMachineRootFile():
 	return "rootfs.bin"

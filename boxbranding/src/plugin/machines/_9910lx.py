@@ -2,6 +2,12 @@
 
 # branding file for 9910lx
 
+def getBoxType():
+	return "9910lx"
+
+def getMachineName():
+	return "9910LX"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "9910lx"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for roxxs200hd
 
+def getBoxType():
+	return "roxxs200hd"
+
+def getMachineName():
+	return "Roxxs 200HD"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "roxxs200hd"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

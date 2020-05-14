@@ -2,6 +2,12 @@
 
 # branding file for gbultraue
 
+def getBoxType():
+	return "gbultraue"
+
+def getMachineName():
+	return "Ultra UE"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "gbultraue"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for evoe3hd
 
+def getBoxType():
+	return "evoe3hd"
+
+def getMachineName():
+	return "E3HD"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "evoe3hd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

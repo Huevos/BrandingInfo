@@ -2,6 +2,12 @@
 
 # branding file for novacombo
 
+def getBoxType():
+	return "novacombo"
+
+def getMachineName():
+	return "NOVA COMBO"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "novacombo"
 
 def getMachineRootFile():
 	return "rootfs.bin"

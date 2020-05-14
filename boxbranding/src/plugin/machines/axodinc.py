@@ -2,6 +2,12 @@
 
 # branding file for axodinc
 
+def getBoxType():
+	return "axodinc"
+
+def getMachineName():
+	return "AX ODIN-C"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "axodinc"
 
 def getMachineRootFile():
 	return "rootfs.bin"

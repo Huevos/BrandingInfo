@@ -2,6 +2,12 @@
 
 # branding file for enibox
 
+def getBoxType():
+	return "enibox"
+
+def getMachineName():
+	return "EniBox"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "enibox"
 
 def getMachineRootFile():
 	return "rootfs.bin"

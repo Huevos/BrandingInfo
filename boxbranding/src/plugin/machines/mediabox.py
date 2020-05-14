@@ -2,6 +2,12 @@
 
 # branding file for mediabox
 
+def getBoxType():
+	return "mediabox"
+
+def getMachineName():
+	return "MediaBox HD LX"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "mediabox"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

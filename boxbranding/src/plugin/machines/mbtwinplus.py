@@ -2,6 +2,12 @@
 
 # branding file for mbtwinplus
 
+def getBoxType():
+	return "mbtwinplus"
+
+def getMachineName():
+	return "Premium Twin Plus"
+
 def getBrandOEM():
 	return "broadmedia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "mbtwinplus"
 
 def getMachineRootFile():
 	return "rootfs.bin"

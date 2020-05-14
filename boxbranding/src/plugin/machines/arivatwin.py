@@ -2,6 +2,12 @@
 
 # branding file for arivatwin
 
+def getBoxType():
+	return "arivatwin"
+
+def getMachineName():
+	return "ARIVA ATV TT"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p13"
+
+def getMachineProcModel():
+	return "arivatwin"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

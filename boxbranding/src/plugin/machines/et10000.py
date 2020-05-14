@@ -2,6 +2,12 @@
 
 # branding file for et10000
 
+def getBoxType():
+	return "et10000"
+
+def getMachineName():
+	return "ET10000"
+
 def getBrandOEM():
 	return "xtrend"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "et10000"
 
 def getMachineRootFile():
 	return "rootfs.bin"

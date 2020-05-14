@@ -2,6 +2,12 @@
 
 # branding file for tyrant
 
+def getBoxType():
+	return "tyrant"
+
+def getMachineName():
+	return "tyrant"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "tyrant"
 
 def getMachineRootFile():
 	return "rootfs.bin"

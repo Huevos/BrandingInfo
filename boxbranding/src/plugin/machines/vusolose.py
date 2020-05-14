@@ -2,6 +2,12 @@
 
 # branding file for vusolose
 
+def getBoxType():
+	return "vusolose"
+
+def getMachineName():
+	return "Solo SE"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vusolose"
 
 def getMachineRootFile():
 	return "root_cfe_auto.bin"

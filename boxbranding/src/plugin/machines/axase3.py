@@ -2,6 +2,12 @@
 
 # branding file for axase3
 
+def getBoxType():
+	return "axase3"
+
+def getMachineName():
+	return "E3HD"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "axase3"
 
 def getMachineRootFile():
 	return "rootfs.bin"

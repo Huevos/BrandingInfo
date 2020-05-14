@@ -2,6 +2,12 @@
 
 # branding file for vipercombohdd
 
+def getBoxType():
+	return "vipercombohdd"
+
+def getMachineName():
+	return "Viper Combo HDD"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vipercombohdd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

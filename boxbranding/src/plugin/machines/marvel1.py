@@ -2,6 +2,12 @@
 
 # branding file for marvel1
 
+def getBoxType():
+	return "marvel1"
+
+def getMachineName():
+	return "Marvel 1"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "marvel1"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for force2nano
 
+def getBoxType():
+	return "force2nano"
+
+def getMachineName():
+	return "force2 nano"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "force2nano"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

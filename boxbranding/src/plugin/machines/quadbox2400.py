@@ -2,6 +2,12 @@
 
 # branding file for quadbox2400
 
+def getBoxType():
+	return "quadbox2400"
+
+def getMachineName():
+	return "QuadBox HD2400"
+
 def getBrandOEM():
 	return "skylake"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "quadbox2400"
 
 def getMachineRootFile():
 	return "rootfs.bin"

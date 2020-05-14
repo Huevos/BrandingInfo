@@ -2,6 +2,12 @@
 
 # branding file for bre2ze4k
 
+def getBoxType():
+	return "bre2ze4k"
+
+def getMachineName():
+	return "BRE2ZE 4K"
+
 def getBrandOEM():
 	return "gfutures"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p3"
+
+def getMachineProcModel():
+	return "bre2ze4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

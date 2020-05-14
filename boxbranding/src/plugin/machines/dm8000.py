@@ -2,6 +2,12 @@
 
 # branding file for dm8000
 
+def getBoxType():
+	return "dm8000"
+
+def getMachineName():
+	return "DM8000HD"
+
 def getBrandOEM():
 	return "dreambox"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return ""
+
+def getMachineProcModel():
+	return "dm8000"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for alphatriple
 
+def getBoxType():
+	return "alphatriple"
+
+def getMachineName():
+	return "Alpha Triple HD"
+
 def getBrandOEM():
 	return "broadmedia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "alphatriple"
 
 def getMachineRootFile():
 	return "rootfs.bin"

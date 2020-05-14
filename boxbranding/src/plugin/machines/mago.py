@@ -2,6 +2,12 @@
 
 # branding file for mago
 
+def getBoxType():
+	return "mago"
+
+def getMachineName():
+	return "MAGO"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "mago"
 
 def getMachineRootFile():
 	return "rootfs.bin"

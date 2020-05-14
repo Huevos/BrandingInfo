@@ -2,6 +2,12 @@
 
 # branding file for spycatminiv2
 
+def getBoxType():
+	return "spycatminiv2"
+
+def getMachineName():
+	return "Mini V2"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "spycatminiv2"
 
 def getMachineRootFile():
 	return "rootfs.bin"

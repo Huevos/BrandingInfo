@@ -2,6 +2,12 @@
 
 # branding file for evoslim
 
+def getBoxType():
+	return "evoslim"
+
+def getMachineName():
+	return "Slim"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "evoslim"
 
 def getMachineRootFile():
 	return "rootfs.bin"

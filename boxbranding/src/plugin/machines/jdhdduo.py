@@ -2,6 +2,12 @@
 
 # branding file for jdhdduo
 
+def getBoxType():
+	return "jdhdduo"
+
+def getMachineName():
+	return "HD DUO"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "jdhdduo"
 
 def getMachineRootFile():
 	return "rootfs.bin"

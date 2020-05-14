@@ -2,6 +2,12 @@
 
 # branding file for zgemmash2
 
+def getBoxType():
+	return "zgemmash2"
+
+def getMachineName():
+	return "Star H2"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "zgemmash2"
 
 def getMachineRootFile():
 	return "rootfs.bin"

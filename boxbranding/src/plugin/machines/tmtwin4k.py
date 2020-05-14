@@ -2,6 +2,12 @@
 
 # branding file for tmtwin4k
 
+def getBoxType():
+	return "tmtwin4k"
+
+def getMachineName():
+	return "TM-Twin-4K"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "tmtwin4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

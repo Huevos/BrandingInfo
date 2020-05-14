@@ -2,6 +2,12 @@
 
 # branding file for iqonios100hd
 
+def getBoxType():
+	return "iqonios100hd"
+
+def getMachineName():
+	return "IOS-100HD"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "iqonios100hd"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

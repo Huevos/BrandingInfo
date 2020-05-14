@@ -2,6 +2,12 @@
 
 # branding file for turing
 
+def getBoxType():
+	return "turing"
+
+def getMachineName():
+	return "TURING"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd9"
+
+def getMachineProcModel():
+	return "turing"
 
 def getMachineRootFile():
 	return "rootfs.bin"

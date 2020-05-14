@@ -2,6 +2,12 @@
 
 # branding file for gb800ueplus
 
+def getBoxType():
+	return "gb800ueplus"
+
+def getMachineName():
+	return "800 UE Plus"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "gb800ueplus"
 
 def getMachineRootFile():
 	return "rootfs.bin"

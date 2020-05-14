@@ -2,6 +2,12 @@
 
 # branding file for revo4k
 
+def getBoxType():
+	return "revo4k"
+
+def getMachineName():
+	return "REVO 4K"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "revo4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

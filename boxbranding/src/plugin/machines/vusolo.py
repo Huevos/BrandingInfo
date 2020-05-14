@@ -2,6 +2,12 @@
 
 # branding file for vusolo
 
+def getBoxType():
+	return "vusolo"
+
+def getMachineName():
+	return "Solo"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vusolo"
 
 def getMachineRootFile():
 	return "root_cfe_auto.jffs2"

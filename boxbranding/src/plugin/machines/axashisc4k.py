@@ -2,6 +2,12 @@
 
 # branding file for axashisc4k
 
+def getBoxType():
+	return "axashisc4k"
+
+def getMachineName():
+	return "HIS C 4K"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p10"
+
+def getMachineProcModel():
+	return "axashisc4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

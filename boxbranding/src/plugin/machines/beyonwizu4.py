@@ -2,6 +2,12 @@
 
 # branding file for beyonwizu4
 
+def getBoxType():
+	return "beyonwizu4"
+
+def getMachineName():
+	return "U4"
+
 def getBrandOEM():
 	return "xtrend"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p4"
+
+def getMachineProcModel():
+	return "beyonwizu4"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

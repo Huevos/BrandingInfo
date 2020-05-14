@@ -2,6 +2,12 @@
 
 # branding file for ferguson4k
 
+def getBoxType():
+	return "ferguson4k"
+
+def getMachineName():
+	return "U5 PVR"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p13"
+
+def getMachineProcModel():
+	return "ferguson4k"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

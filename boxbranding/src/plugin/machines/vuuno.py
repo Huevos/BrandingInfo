@@ -2,6 +2,12 @@
 
 # branding file for vuuno
 
+def getBoxType():
+	return "vuuno"
+
+def getMachineName():
+	return "Uno"
+
 def getBrandOEM():
 	return "vuplus"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "vuuno"
 
 def getMachineRootFile():
 	return "root_cfe_auto.jffs2"

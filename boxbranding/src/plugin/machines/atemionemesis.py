@@ -2,6 +2,12 @@
 
 # branding file for atemionemesis
 
+def getBoxType():
+	return "atemionemesis"
+
+def getMachineName():
+	return "Nemesis"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "atemionemesis"
 
 def getMachineRootFile():
 	return "rootfs.bin"

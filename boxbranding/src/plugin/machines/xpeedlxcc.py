@@ -2,6 +2,12 @@
 
 # branding file for xpeedlxcc
 
+def getBoxType():
+	return "xpeedlxcc"
+
+def getMachineName():
+	return "XPEED LX CLASS C"
+
 def getBrandOEM():
 	return "ultramini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "xpeedlxcc"
 
 def getMachineRootFile():
 	return "rootfs.bin"

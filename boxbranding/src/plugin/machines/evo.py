@@ -2,6 +2,12 @@
 
 # branding file for evo
 
+def getBoxType():
+	return "evo"
+
+def getMachineName():
+	return "EVO"
+
 def getBrandOEM():
 	return "odin"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd4"
+
+def getMachineProcModel():
+	return "evo"
 
 def getMachineRootFile():
 	return "rootfs.bin"

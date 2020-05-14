@@ -2,6 +2,12 @@
 
 # branding file for osmega
 
+def getBoxType():
+	return "osmega"
+
+def getMachineName():
+	return "OS mega"
+
 def getBrandOEM():
 	return "xcore"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "osmega"
 
 def getMachineRootFile():
 	return "rootfs.bin"

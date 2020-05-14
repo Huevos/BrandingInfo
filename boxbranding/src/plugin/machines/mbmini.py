@@ -2,6 +2,12 @@
 
 # branding file for mbmini
 
+def getBoxType():
+	return "mbmini"
+
+def getMachineName():
+	return "Premium Mini"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "mbmini"
 
 def getMachineRootFile():
 	return "rootfs.bin"

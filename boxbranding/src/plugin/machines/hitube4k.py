@@ -2,6 +2,12 @@
 
 # branding file for hitube4k
 
+def getBoxType():
+	return "hitube4k"
+
+def getMachineName():
+	return "4K"
+
 def getBrandOEM():
 	return "dinobot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd11"
+
+def getMachineProcModel():
+	return "hitube4k"
 
 def getMachineRootFile():
 	return "rootfs.bin"

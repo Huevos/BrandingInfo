@@ -2,6 +2,12 @@
 
 # branding file for gbipbox
 
+def getBoxType():
+	return "gbipbox"
+
+def getMachineName():
+	return "IPBox"
+
 def getBrandOEM():
 	return "gigablue"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "gbipbox"
 
 def getMachineRootFile():
 	return "rootfs.bin"

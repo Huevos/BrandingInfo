@@ -2,6 +2,12 @@
 
 # branding file for worldvisionf1plus
 
+def getBoxType():
+	return "worldvisionf1plus"
+
+def getMachineName():
+	return "force1 Plus"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "worldvisionf1plus"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

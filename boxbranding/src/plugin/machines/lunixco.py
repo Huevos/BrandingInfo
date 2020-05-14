@@ -2,6 +2,12 @@
 
 # branding file for lunixco
 
+def getBoxType():
+	return "lunixco"
+
+def getMachineName():
+	return "LUNIX CO"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "lunixco"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for fusionhdse
 
+def getBoxType():
+	return "fusionhdse"
+
+def getMachineName():
+	return "FUSION HD SE"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "fusionhdse"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

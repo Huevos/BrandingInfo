@@ -2,6 +2,12 @@
 
 # branding file for e4hd
 
+def getBoxType():
+	return "e4hd"
+
+def getMachineName():
+	return "E4HD"
+
 def getBrandOEM():
 	return "ceryon"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "e4hd"
 
 def getMachineRootFile():
 	return "rootfs.bin"

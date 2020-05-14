@@ -2,6 +2,12 @@
 
 # branding file for xpeedlx3
 
+def getBoxType():
+	return "xpeedlx3"
+
+def getMachineName():
+	return "LX-3"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "xpeedlx3"
 
 def getMachineRootFile():
 	return "rootfs.bin"

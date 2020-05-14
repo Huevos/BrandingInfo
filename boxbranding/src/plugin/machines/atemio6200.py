@@ -2,6 +2,12 @@
 
 # branding file for atemio6200
 
+def getBoxType():
+	return "atemio6200"
+
+def getMachineName():
+	return "6200-HD"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "atemio6200"
 
 def getMachineRootFile():
 	return "rootfs.bin"

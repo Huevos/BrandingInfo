@@ -2,6 +2,12 @@
 
 # branding file for et7x00
 
+def getBoxType():
+	return "et7x00"
+
+def getMachineName():
+	return "ET7x00"
+
 def getBrandOEM():
 	return "xtrend"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "et7x00"
 
 def getMachineRootFile():
 	return "rootfs.bin"

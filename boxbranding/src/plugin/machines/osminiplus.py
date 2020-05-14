@@ -2,6 +2,12 @@
 
 # branding file for osminiplus
 
+def getBoxType():
+	return "osminiplus"
+
+def getMachineName():
+	return "OS mini +"
+
 def getBrandOEM():
 	return "xcore"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd2"
+
+def getMachineProcModel():
+	return "osminiplus"
 
 def getMachineRootFile():
 	return "rootfs.bin"

@@ -2,6 +2,12 @@
 
 # branding file for enfinity
 
+def getBoxType():
+	return "enfinity"
+
+def getMachineName():
+	return "ENfinity"
+
 def getBrandOEM():
 	return "entwopia"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "enfinity"
 
 def getMachineRootFile():
 	return "rootfs.bin"

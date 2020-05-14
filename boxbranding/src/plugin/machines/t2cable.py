@@ -2,6 +2,12 @@
 
 # branding file for t2cable
 
+def getBoxType():
+	return "t2cable"
+
+def getMachineName():
+	return "ENFINITY T2/CABLE"
+
 def getBrandOEM():
 	return "tripledot"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd8"
+
+def getMachineProcModel():
+	return "t2cable"
 
 def getMachineRootFile():
 	return "rootfs.bin"

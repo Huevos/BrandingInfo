@@ -2,6 +2,12 @@
 
 # branding file for mbultra
 
+def getBoxType():
+	return "mbultra"
+
+def getMachineName():
+	return "Premium Ultra"
+
 def getBrandOEM():
 	return "ini"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "mbultra"
 
 def getMachineRootFile():
 	return "rootfs.bin"

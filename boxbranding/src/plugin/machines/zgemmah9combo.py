@@ -2,6 +2,12 @@
 
 # branding file for zgemmah9combo
 
+def getBoxType():
+	return "zgemmah9combo"
+
+def getMachineName():
+	return "H9 COMBO"
+
 def getBrandOEM():
 	return "airdigital"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mmcblk0p19"
+
+def getMachineProcModel():
+	return "zgemmah9combo"
 
 def getMachineRootFile():
 	return "rootfs.tar.bz2"

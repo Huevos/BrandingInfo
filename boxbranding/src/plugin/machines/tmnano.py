@@ -2,6 +2,12 @@
 
 # branding file for tmnano
 
+def getBoxType():
+	return "tmnano"
+
+def getMachineName():
+	return "TM-NANO-OE"
+
 def getBrandOEM():
 	return "dags"
 
@@ -79,6 +85,9 @@ def getMachineMtdKernel():
 
 def getMachineMtdRoot():
 	return "mtd0"
+
+def getMachineProcModel():
+	return "tmnano"
 
 def getMachineRootFile():
 	return "oe_rootfs.bin"

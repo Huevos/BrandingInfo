@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# updated Sat 16 May 2020 9:20 CEST
+# updated Sat 16 May 2020 10:21 CEST
 
 SUPPORTED_MACHINES = {
 	"7000s": ["e4hd", "e4hdhybrid", "mbmicro"],
@@ -15,6 +15,7 @@ SUPPORTED_MACHINES = {
 	"7400s": ["odinplus"],
 	"8100s": ["e4hdultra", "protek4k"],
 	"alphatriplehd": ["alphatriplehd"],
+	"beyonwizv2": ["beyonwizv2"],
 	"blackbox7405": ["sogno8800hd", "uniboxhde"],
 	"cc1": ["clap4k"],
 	"ch625dt": ["vipercombohdd"],

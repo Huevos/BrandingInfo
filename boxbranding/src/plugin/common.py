@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# If there is a "#" next to the function name the function will be overwritten
-
 import os
 import re
 
+from SupportedFunctions import IMPORTED_FUNCTIONS
 from SupportedMachines import SUPPORTED_MACHINES
-from Plugins.Extensions.OpenWebif.controllers.models import owibranding
+from Plugins.Extensions.OpenWebif.controllers.models import owibranding as helper
 
 def sanitize(input): # remove any char that is not valid in a Python token
 	return re.sub("[^a-zA-Z0-9_]", "", input)
@@ -19,10 +18,12 @@ def tokenise(input): # Makes a valid importable Python token
 
 #################################################################
 
+# If there is a "#" next to the function name the function will be overwritten
+
 # software specific functions
 
 def getDriverDate():
-	return owibranding.getDriverDate()
+	return helper.getDriverDate()
 
 def getImageArch(): #
 	return ""
@@ -66,13 +67,13 @@ def getImageDistro():
 		return ""
 
 def getOEVersion():
-	return owibranding.getOEVersion()
+	return helper.getOEVersion()
 
 def getImageVersion():
-	return owibranding.getImageVersion()
+	return helper.getImageVersion()
 
 def getImageBuild():
-	return owibranding.getImageBuild()
+	return helper.getImageBuild()
 
 def getImageDevBuild():
 	return ""
@@ -91,13 +92,13 @@ def getMachineBuild(): #
 # These should be the same in all distros, but with non-OE-Alliance distros all bets are off.
 
 def getMachineName(): #
-	return owibranding.getMachineName()
+	return helper.getMachineName()
 
 def getMachineProcModel(): #
-	return owibranding.getMachineProcModel()
+	return helper.getMachineProcModel()
 
 def getBoxType(): #
-	return owibranding.getBoxType()
+	return helper.getBoxType()
 
 ##################################################################
 
@@ -249,4 +250,7 @@ def getToken():
 
 token = getToken()
 if token:
+	print "got token:", token
+	exec("from machines.%s import %s" % (token, ','.join(IMPORTED_FUNCTIONS)))
+	
 	

@@ -18,7 +18,7 @@ SUPPORTED_FUNCTIONS = [
 	'getImageDevBuild',
 	'getImageType',
 	'getImageFolder',
-	getMachineBuild'',
+	'getMachineBuild',
 # These should be the same in all distros, but with non-OE-Alliance distros all bets are off.
 	'getMachineName',
 	'getMachineProcModel',
@@ -65,7 +65,7 @@ IMPORTED_FUNCTIONS = [
 #	'getImageDevBuild',
 #	'getImageType',
 	'getImageFolder',
-	getMachineBuild'',
+	'getMachineBuild',
 # These should be the same in all distros, but with non-OE-Alliance distros all bets are off.
 	'getMachineName',
 	'getMachineProcModel',

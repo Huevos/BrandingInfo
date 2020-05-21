@@ -28,8 +28,7 @@ DEPENDS = "enigma2"
 INSANE_SKIP_${PN} += "already-stripped ldflags"
 
 
-FILES_${PN} += "${libdir}/*"
-FILES_${PN}-src += "${libdir}/*.py*"
+#PACKAGES += "${PN}-src
 
 python populate_packages_prepend() {
     enigma2_plugindir = bb.data.expand('${libdir}/enigma2/python/Plugins', d)
@@ -40,3 +39,6 @@ python populate_packages_prepend() {
     do_split_packages(d, enigma2_plugindir, '^(\w+/\w+)/(.*/)?\.debug/.*$', 'enigma2-plugin-%s-dbg', '%s (debug)', recursive=True, match_path=True, prepend=True)
     do_split_packages(d, enigma2_plugindir, '^(\w+/\w+)/.*\/.*\.po$', 'enigma2-plugin-%s-po', '%s (translations)', recursive=True, match_path=True, prepend=True)
 }
+
+FILES_${PN} += "${libdir}/*"
+FILES_${PN}-src += "${libdir}/*.py"
